@@ -1,0 +1,79 @@
+:root{
+    --abril:'Abril Fatface', cursive;
+    --open:'Open Sans', sans-serif;
+    --ubuntu:'Ubuntu', sans-serif;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background-color: #0771b9;
+}
+.container{
+    width: 945px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header p{
+    padding: 10px;
+    font-family: var(--open);
+    font-size: 400;
+    color:#e7e7e7;
+}
+header ul{
+    width: 155px;
+    padding: 10px;
+    font-size: 14px;
+    display:flex;
+    flex-wrap: wrap;
+    color:#e7e7e7;
+    text-align: center;
+    justify-content: space-between;
+}
+ul .extra{
+    color: #353535;
+}
+.logo{
+    margin: 20px;
+}
+.menu ul{
+    width: 348px;
+    margin: 32px 0;
+    font-size: 14px;
+    display:flex;
+    flex-wrap: wrap;
+    color:#353535;
+    text-align: center;
+    justify-content: space-between;
+}
+.menu ul li:hover{
+    color: #0872b9;
+    transition: 2s linear;
+}
+/* banner part */
+#banner{
+    width: 100%;
+    height: 400px;
+    background-color: #5f5f5e;
+    position:relative;
+}
+#banner .banner_img{
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+}
